@@ -1,0 +1,17 @@
+[project]
+name = "localmodelpilot"
+version = "0.1.0"
+description = "Local model manager for macOS (hardware scan, GGUF catalog, llama-server control)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+localmodelpilot = "localmodelpilot.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["localmodelpilot*"]

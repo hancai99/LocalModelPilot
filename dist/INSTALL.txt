@@ -1,0 +1,7 @@
+LocalModelPilot 0.1.0 (macOS, original tool)
+- Requires: macOS, Python 3.11+ (/usr/bin/python3), existing llama-server binary.
+- Run UI: open dist/LocalModelPilot.app  (or: ./run.sh web)
+- CLI: ./run.sh scan | models | serve -m <model.gguf> | status | stop
+- Config: ~/Library/Application Support/LocalModelPilot/config.json
+- Logs (capped, rate-limited): ~/Library/Application Support/LocalModelPilot/localmodelpilot.log
+This tool reuses local model files (e.g. ~/AI-Models) and llama-server; it does not bundle weights.

@@ -1,0 +1,3 @@
+0df84d53eabec32948847e99bd258bb3488e49f6e9320f10918efe78461db6b1  dist/LocalModelPilot-0.1.0.dmg
+be737d552fd9858db0b1f0d2fe16f530a8f33ec672603da0d6ef54271df9c76c  dist/LocalModelPilot-0.1.0-standalone-macos.zip
+acbfa1bc719a9e585750381ee4d0d08bd5b2295acf6dbc9d357ebf5370012c56  dist/LocalModelPilot-0.1.0-source.zip

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+.eggs/
+*.egg-info/
+.DS_Store
+# large distributable artifacts (uploaded as release assets)
+/dist/*.dmg
+/dist/*.zip
+/dist/LocalModelPilot.app/
+# keep: dist/homebrew/, dist/RELEASE_NOTES.md, dist/SHA256SUMS.txt, dist/INSTALL.txt, dist/localmodelpilot.rb, dist/icon.icns, dist/homebrew/scripts/
