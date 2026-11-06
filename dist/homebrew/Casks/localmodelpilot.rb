@@ -3,11 +3,10 @@ cask "localmodelpilot" do
   sha256 "0df84d53eabec32948847e99bd258bb3488e49f6e9320f10918efe78461db6b1"
 
   # TODO: replace with your published release URL (GitHub Releases recommended)
-  # url "https://github.com/<OWNER>/<REPO>/releases/download/v#{version}/LocalModelPilot-#{version}.dmg"
-  url "file://#{Dir.home}/LocalModelPilot/dist/LocalModelPilot-#{version}.dmg"
+  url "https://github.com/hancai99/LocalModelPilot/releases/download/v#{version}/LocalModelPilot-#{version}.dmg"
   name "LocalModelPilot"
   desc "Local model helper for macOS (llama-server control, GGUF catalog, Web UI)"
-  homepage "https://github.com/<OWNER>/<REPO>"
+  homepage "https://github.com/hancai99/LocalModelPilot"
 
   depends_on macos: ">= :monterey"
 
